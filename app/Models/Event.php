@@ -8,8 +8,4 @@ use Illuminate\Database\Eloquent\Model;
 class Event extends Model
 {
     use HasFactory;
-  
-     protected $fillable = [
-        'created_by_user_id',
-    ];
 }
